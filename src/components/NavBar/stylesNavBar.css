@@ -1,0 +1,31 @@
+.navBar {
+    display: flex;
+    height: 130px;
+    background-color: #4f000b;
+    color: #f9f7f3;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brandPana {
+    width: 100px;
+    height: 100px;
+}
+
+.categoriesCont {
+    display: flex;
+    list-style: none;
+}
+
+.categories {
+    margin-right: 1rem;
+}
+
+.navBar a:hover {
+    color: chartreuse;
+}
+
+.navBar a {
+    color: #f9f7f3;
+    text-decoration: none;
+}

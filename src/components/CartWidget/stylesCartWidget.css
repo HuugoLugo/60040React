@@ -1,0 +1,17 @@
+.cartCont {
+    position: relative;
+
+}
+
+.cartNumber {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #adc178;
+    color: #242424;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
