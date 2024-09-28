@@ -1,0 +1,28 @@
+.cardItemDetail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #242424;
+}
+
+.imgItemDetail {
+    height: 350px;
+    width: 400px;
+    border-style: double;
+}
+
+.divider {
+    width: 420px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}

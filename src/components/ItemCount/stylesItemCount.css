@@ -1,7 +1,11 @@
-.cardItemsCont {
+.countCont {
+    height: 25px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
     justify-content: center;
     align-items: center;
+    gap: 3px;
+}
+
+.count {
+    padding: 5px
 }

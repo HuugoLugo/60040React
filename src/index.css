@@ -5,12 +5,42 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #adc178;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  background-color: #4f000b;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 7px 12px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #adc178;
+  color: #242424;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+button :any-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 9px;
 }
 
 * {
