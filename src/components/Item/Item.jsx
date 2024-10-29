@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import "./stylesItem.css";
 
+
 function Item({ product }) {
+
     return (
         <div className="cardItem" >
             <img className="imgItem" src={product.image} alt={`Imagen de ${product.name}`} />

@@ -1,0 +1,21 @@
+.cartItemsCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #242424;
+}
+
+.divide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px;
+    color: #242424;
+}
+
+.btnToCheckout {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+}

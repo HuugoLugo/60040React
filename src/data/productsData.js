@@ -2,7 +2,7 @@ export const productsData = [
     {
         id: 1,
         category: "Panaderia",
-        image: "assets/img/dulceConcha.webp",
+        image: "/assets/img/dulceConcha.webp",
         name: "Concha",
         price: 8,
         stock: 11,
@@ -11,7 +11,7 @@ export const productsData = [
     {
         id: 2,
         category: "Panaderia",
-        image: "assets/img/blancoChilidog.webp",
+        image: "/assets/img/blancoChilidog.webp",
         name: "Chilidog",
         price: 5,
         stock: 22,
@@ -20,16 +20,16 @@ export const productsData = [
     {
         id: 3,
         category: "Panaderia",
-        image: "assets/img/dulceDona.webp",
+        image: "/assets/img/dulceDona.webp",
         name: "Dona",
         price: 7,
         stock: 9,
-        description: "También conocida como rosquilla, es un pan dulce que se hornea o se fríe, generalmente se hacen en forma de aro y suelen ser glaseadas, de chocolate, con grajeas"
+        description: "También conocida como rosquilla, es un pan dulce que se hornea o se fríe, generalmente se hacen en forma de aro y suelen ser glaseadas, de chocolate, con grajeas."
     },
     {
         id: 4,
         category: "Pasteleria",
-        image: "assets/img/redondoTresLechesChocolate.webp",
+        image: "/assets/img/redondoTresLechesChocolate.webp",
         name: "Pastel redondo de tres leches",
         price: 350,
         stock: 3,
@@ -38,7 +38,7 @@ export const productsData = [
     {
         id: 5,
         category: "Pasteleria",
-        image: "assets/img/planchaGalleta.webp",
+        image: "/assets/img/planchaGalleta.webp",
         name: "Pastel de plancha",
         price: 450,
         stock: 4,
@@ -47,7 +47,7 @@ export const productsData = [
     {
         id: 6,
         category: "Pasteleria",
-        image: "assets/img/redondoPawPatrowl2pisos.webp",
+        image: "/assets/img/redondoPawPatrowl2pisos.webp",
         name: "Pastel redondo",
         price: 400,
         stock: 6,
@@ -56,7 +56,7 @@ export const productsData = [
     {
         id: 7,
         category: "Extras",
-        image: "assets/img/extraMiniPastel.webp",
+        image: "/assets/img/extraMiniPastel.webp",
         name: "Mini pastel",
         price: 60,
         stock: 6,
@@ -65,7 +65,7 @@ export const productsData = [
     {
         id: 8,
         category: "Extras",
-        image: "assets/img/extraVasitoTresLeches.webp",
+        image: "/assets/img/extraVasitoTresLeches.webp",
         name: "Vasito tres leches",
         price: 40,
         stock: 8,
@@ -74,7 +74,7 @@ export const productsData = [
     {
         id: 9,
         category: "Extras",
-        image: "assets/img/extraManteconchas.webp",
+        image: "/assets/img/extraManteconchas.webp",
         name: "Manteconcha",
         price: 12,
         stock: 6,

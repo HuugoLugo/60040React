@@ -1,0 +1,41 @@
+.orderCont {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    background-color: #242424;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    gap: 5px;
+    border: 5px ridge;
+    padding: 10px;
+}
+
+.orderListCont {
+    border-bottom: 1px double chartreuse;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.orderSearch {
+    display: flex;
+    gap: 10px;
+    background-color: #242424;
+    width: 90%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.orderInput {
+    width: 60%;
+    font-size: 17px;
+}
+
+.btnEnd {
+    display: flex;
+    justify-self: center;
+}

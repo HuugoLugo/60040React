@@ -1,0 +1,78 @@
+.checkoutCartItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 400px;
+    border-radius: 5px;
+    border-bottom: 1px double chartreuse;
+}
+
+.checkoutCartImg {
+    height: 90px;
+    width: 90px;
+    border-style: double;
+}
+
+.checkoutCartInfo {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 140px;
+    border-left: 1px double chartreuse;
+    justify-content: space-around;
+    align-items: start;
+    padding-left: 5px;
+}
+
+.checkoutPay {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    width: 380px;
+    border-bottom: 1px double;
+}
+
+.checkoutForm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 350px;
+    background-color: #4f000b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.elementRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 380px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.inputStyle {
+    width: 75%;
+    background-color: #adc178;
+    border: 3px groove #242424;
+}
+
+.btnPay {
+    background-color: chartreuse;
+    cursor: pointer;
+    width: 60%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 380px;
+    gap: 10px;
+}

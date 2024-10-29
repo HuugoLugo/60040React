@@ -1,0 +1,23 @@
+.checkoutView {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #242424;
+    gap: 15px;
+}
+
+.checkoutViewCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.checkoutViewForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+}

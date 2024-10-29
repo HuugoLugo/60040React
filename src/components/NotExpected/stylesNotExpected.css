@@ -1,0 +1,12 @@
+.btnKeepBuying {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+}
+
+.gifLost {
+    width: 380px;
+    height: 350px;
+    display: flex;
+    justify-self: center;
+}
